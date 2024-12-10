@@ -8,9 +8,9 @@ class Config(object):
     use_se = False
     loss = 'focal_loss'
 
-    display = False
     finetune = False
-
+    display = False
+    
     meta_train = '/preprocessed/train_meta.csv'
     train_root = '/preprocessed'
     train_list = 'full_data_train.txt'
